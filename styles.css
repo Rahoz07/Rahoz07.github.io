@@ -1,0 +1,97 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F8F9FA; /* color de fondo suave */
+}
+
+header {
+    background-color: #2C3E50;
+    color: #FFF;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header nav ul li a:hover {
+    color: #FFD700; /* color dorado para el hover */
+}
+
+.landing {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #ECF0F1;
+}
+
+.landing .content {
+    max-width: 50%;
+}
+
+.landing h2 {
+    color: #2C3E50;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.landing p {
+    color: #34495E;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.cta-btn {
+    padding: 15px 30px;
+    background-color: #3498DB;
+    color: #FFF;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta-btn:hover {
+    background-color: #2980B9;
+}
+
+.landing .image img {
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #2C3E50;
+    color: #FFF;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+footer p {
+    margin: 0;
+}
