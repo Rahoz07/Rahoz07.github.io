@@ -6,12 +6,13 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #F8F9FA; /* color de fondo suave */
+    font-family: 'Arial', sans-serif;
+    background-color: #F8F9FA; /* Color de fondo suave */
 }
 
+/* Header */
 header {
-    background-color: #2C3E50;
+    background-color: #0B2342; /* Color más oscuro de la paleta */
     color: #FFF;
     padding: 20px;
     display: flex;
@@ -39,15 +40,16 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    color: #FFD700; /* color dorado para el hover */
+    color: #3B7DA7; /* Color de hover más claro */
 }
 
+/* Sección de aterrizaje */
 .landing {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 50px;
-    background-color: #ECF0F1;
+    background-color: #F8F9FA;
 }
 
 .landing .content {
@@ -55,37 +57,39 @@ header nav ul li a:hover {
 }
 
 .landing h2 {
-    color: #2C3E50;
-    font-size: 36px;
+    color: #24388D; /* Tono azul más oscuro */
+    font-size: 48px;
     margin-bottom: 20px;
 }
 
 .landing p {
-    color: #34495E;
-    font-size: 18px;
-    margin-bottom: 20px;
+    color: #2F518C; /* Tono azul intermedio */
+    font-size: 20px;
+    margin-bottom: 30px;
 }
 
 .cta-btn {
     padding: 15px 30px;
-    background-color: #3498DB;
+    background-color: #3B7DA7; /* Color del botón */
     color: #FFF;
     text-decoration: none;
     border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .cta-btn:hover {
-    background-color: #2980B9;
+    background-color: #2F518C; /* Cambia a un tono más oscuro */
 }
 
 .landing .image img {
-    max-width: 400px;
+    max-width: 450px;
     border-radius: 10px;
 }
 
 /* Footer */
 footer {
-    background-color: #2C3E50;
+    background-color: #0B2342;
     color: #FFF;
     text-align: center;
     padding: 20px;
