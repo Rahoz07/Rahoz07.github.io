@@ -3,38 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Virtual Med</title>
+    <title>VitaRural - Iniciar Sesión</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div class="logo">
-            <h1>Virtual Med</h1>
+    <div class="login-container">
+        <div class="login-box">
+            <div class="login-left">
+                <h2>INICIAR SESIÓN</h2>
+                <form id="loginForm">
+                    <div class="input-field">
+                        <label for="username">Nombre de usuario</label>
+                        <input type="text" id="username" name="username" required>
+                    </div>
+                    <div class="input-field">
+                        <label for="password">Contraseña</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+                    <button type="submit">Iniciar Sesión</button>
+                </form>
+                <p>¿Aún no te has registrado? <a href="#">Regístrate</a></p>
+            </div>
+            <div class="login-right">
+                <h1>BIENVENIDO</h1>
+                <p>Tu salud, a un clic de distancia</p>
+            </div>
         </div>
-        <nav>
-            <ul>
-                <li><a href="#">¿Quienes somos?</a></li>
-                <li><a href="#">Servicios</a></li>
-                <li><a href="#">IA Doctor</a></li>
-                <li><a href="#">Noticias</a></li>
-            </ul>
-        </nav>
-    </header>
+    </div>
 
-    <section class="landing">
-        <div class="content">
-            <h2>Virtual Med</h2>
-            <p>"Acercando la salud a cada rincón rural, con tecnología y cuidado humano."</p>
-            <a href="#" class="cta-btn">Comenzar</a>
-        </div>
-        <div class="image">
-            <img src="medical-landing-page-image.png" alt="Medical Landing Page">
-        </div>
-    </section>
-
-    <footer>
-        <p>&copy; 2024 Virtual Med. Todos los derechos reservados.</p>
-    </footer>
+    <script src="main.js"></script>
 </body>
 </html>
