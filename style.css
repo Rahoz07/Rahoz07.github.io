@@ -98,7 +98,7 @@ button:hover {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image: url('../images/pattern.png'); /* Agregar un patrón de fondo */
+    background-image: url('Background Login.png'); /* Agregar un patrón de fondo */
 }
 
 .login-right h1 {
@@ -120,3 +120,4 @@ button:hover {
         width: 100%;
     }
 }
+
