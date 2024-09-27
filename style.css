@@ -94,13 +94,16 @@ button:hover {
     background-color: #007bff; /* Color celeste */
     color: white;
     display: flex;
-    justify-content: center;
+    flex-direction: column; /* Alinea los elementos en una columna */
+    justify-content: center; /* Centra verticalmente */
+    align-items: center; /* Centra horizontalmente */
     text-align: center;
     background-image: url('Background Login.png'); /* Ruta de tu imagen de fondo */
     background-size: cover; /* Asegura que la imagen cubra todo el fondo */
     background-position: center;
     background-blend-mode: multiply; /* Mezcla la imagen con el color */
-    opacity: 0.9; /* Ajusta la opacidad para suavizar aún más la imagen */
+    opacity: 0.9; /* Ajusta la opacidad de la imagen */
+    padding: 20px; /* Añade un poco de padding para que el texto no quede pegado */
 }
 
 .login-right h1 {
